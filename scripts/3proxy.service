@@ -10,6 +10,7 @@ ExecReload=/bin/kill -SIGUSR1 $MAINPID
 KillMode=process
 Restart=on-failure
 RestartSec=60s
+RuntimeDirectory=3proxy
 LimitNOFILE=65536
 LimitNPROC=32768
 
